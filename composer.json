@@ -1,0 +1,24 @@
+{
+    "name": "gusta/site-coffee-break",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.7",
+        "pestphp/pest": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gusta\\SiteCoffeeBreak\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Ribeiro",
+            "email": "gugzribeiro@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
